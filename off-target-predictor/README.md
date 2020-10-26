@@ -2,11 +2,11 @@
 
 Our prediction model aims to scan the potential off-target sites on the genome and identify off-target sites with high confidence in experiments.
 
-<div align=center>![](https://2020.igem.org/wiki/images/5/5e/T--SJTU-BioX-Shanghai--scan_genome.png)</div>
+![](https://2020.igem.org/wiki/images/5/5e/T--SJTU-BioX-Shanghai--scan_genome.png){:height="50%" width="50%"}
 
 In our model pipeline, we first construct our training set from the result of high-throughput sequencing and bioinformatics tools. Next, we use a machine learning model to carry out the classification task after extracting the features according to the sequence information.
 
-<div align=center>![](https://2020.igem.org/wiki/images/3/33/T--SJTU-BioX-Shanghai--prediction_pipeline.png)</div>
+![](https://2020.igem.org/wiki/images/3/33/T--SJTU-BioX-Shanghai--prediction_pipeline.png){:height="50%" width="50%"}
 
 ### Training Result
 
@@ -20,7 +20,7 @@ We consider the mismatch condition at each position for the sequence pair contai
 | Fold 4 |  0.982   |    0.654    |    0.994    |   0.800   |   0.720   | 0.714 |
 | Fold 5 |  0.982   |    0.644    |    0.996    |   0.803   |   0.715   | 0.710 |
 
-<div align=center>![](https://2020.igem.org/wiki/images/2/2c/T--SJTU-BioX-Shanghai--roc_curve.png)</div>
+![](https://2020.igem.org/wiki/images/2/2c/T--SJTU-BioX-Shanghai--roc_curve.png){:height="50%" width="50%"}
 
 ### Predictor Software
 
