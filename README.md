@@ -10,5 +10,5 @@ We have proposed a complete pipeline from a certain target sequence to Cas9/dCas
 Our model work is included in this repository:
 
 + [Off-target Predictor](./off-target-predictor/)
-+ [Kinetics Progress](./kinetics_progress/)
++ [Kinetics Process](./kinetics_process/)
 + [Codon Nework](./codon_network/)
