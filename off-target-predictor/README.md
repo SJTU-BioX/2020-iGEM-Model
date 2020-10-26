@@ -2,11 +2,11 @@
 
 Our prediction model aims to scan the potential off-target sites on the genome and identify off-target sites with high confidence in experiments.
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_86c55763075a406ce7f78e03df63c776.png)
+![](https://2020.igem.org/wiki/images/5/5e/T--SJTU-BioX-Shanghai--scan_genome.png)
 
 In our model pipeline, we first construct our training set from the result of high-throughput sequencing and bioinformatics tools. Next, we use a machine learning model to carry out the classification task after extracting the features according to the sequence information.
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_e3552bc058748d50cd59f893ac98d833.png)
+![](https://2020.igem.org/wiki/images/3/33/T--SJTU-BioX-Shanghai--prediction_pipeline.png)
 
 ### Training Result
 
@@ -20,7 +20,7 @@ We consider the mismatch condition at each position for the sequence pair contai
 | Fold 4 |  0.982   |    0.654    |    0.994    |   0.800   |   0.720   | 0.714 |
 | Fold 5 |  0.982   |    0.644    |    0.996    |   0.803   |   0.715   | 0.710 |
 
-![](https://codimd.s3.shivering-isles.com/demo/uploads/upload_88f24ea383f2bc613f4336e84e8e150d.png)
+![](https://2020.igem.org/wiki/images/2/2c/T--SJTU-BioX-Shanghai--roc_curve.png)
 
 ### Predictor Software
 
