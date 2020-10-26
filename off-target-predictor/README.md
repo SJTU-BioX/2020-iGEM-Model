@@ -30,7 +30,7 @@ We consider the mismatch condition at each position for the sequence pair contai
 
   Sample Input
 
-  ```shell
+  ```
   python predict_mode_1.py -h
   usage: predict_mode_1.py [-h] -g GENOME_PATH -t TARGET_SEQ [-n {3,4,5,6}]
                            [-f FEATURE_FILE] [-m MODEL_FILE] [-o OUTPUT_FILE]
@@ -57,7 +57,7 @@ We consider the mismatch condition at each position for the sequence pair contai
 
   Required to prepare a csv file consist of <target,off-target seq> pairs
 
-  ```shell
+  ```
   usage: predict_mode_2.py [-h] -c CSV_FILE [-f FEATURE_FILE] [-m MODEL_FILE]
                            [-o OUTPUT_FILE]
   
