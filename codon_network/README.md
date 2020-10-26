@@ -17,9 +17,9 @@
 
 We have visulaized the codon embeddings and measure the mutation distance between amino acids.
 
-![](Rtsne.png)
+<img src="Rtsne.png" style="zoom:50%;" />
 
-![](res.png)
+<img src="res.png" style="zoom:50%;" />
 
 If you want to obtain the similar result, you can run the following commands.
 
